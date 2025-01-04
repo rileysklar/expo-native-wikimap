@@ -1,91 +1,50 @@
-# WikiMaps
+# Welcome to your Expo app 👋
 
-An interactive application that lets you explore Wikipedia articles geographically. View and discover Wikipedia content based on location, with an intuitive map interface and powerful search capabilities.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Features
+## Get started
 
-- 🗺️ **Interactive Map Interface**
-  - Dynamic article markers with clustering
-  - Custom article preview callouts
-  - Intuitive gesture controls
-  - Real-time geolocation support
+1. Install dependencies
 
-- 🔍 **Advanced Search**
-  - Location-based article discovery
-  - Title and content search
-  - Category filtering
-  - Adjustable search radius
+   ```bash
+   npm install
+   ```
 
-- 📱 **Cross-Platform**
-  - Mobile support via React Native
-  - Desktop support via Electron
-  - Consistent experience across devices
+2. Start the app
 
-## Tech Stack
+   ```bash
+    npx expo start
+   ```
 
-- **Frontend Framework:** React Native
-- **Desktop Framework:** Electron
-- **Navigation:** React Navigation
-- **State Management:** Zustand
-- **Maps:** React Native Maps
-- **Styling:** Tailwind CSS
+In the output, you'll find options to open the app in a
 
-## Core Components
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-- **Map View:** Interactive map with article markers
-- **Search Bar:** Location and article search with autocomplete
-- **Filter Panel:** Category, radius, and result limit controls
-- **Article Cards:** Preview cards with images and excerpts
-- **Article Details:** Full article view with related content
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## API Integration
+## Get a fresh project
 
-- Wikipedia API for article content
-- OpenStreetMap Nominatim for geocoding
-- React Native Geolocation for user positioning
+When you're ready, run:
 
-## Getting Started
-
-1. Clone the repository
 ```bash
-git clone [repository-url]
-cd wikimaps
+npm run reset-project
 ```
 
-2. Install dependencies
-```bash
-npm install
-```
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-3. Start the development server
-```bash
-npx expo start
-```
+## Learn more
 
-## Development
+To learn more about developing your project with Expo, look at the following resources:
 
-- **Mobile:** Use Expo Go app to test on your device
-- **Desktop:** Run in Electron development mode
-- **Web:** Access through your browser (development only)
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Contributing
+## Join the community
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Join our community of developers creating universal apps.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Wikipedia API for providing content access
-- OpenStreetMap for mapping data
-- React Native and Electron communities
-
-## Contact
-
-Project Link: [repository-url]
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
